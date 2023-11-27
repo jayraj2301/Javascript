@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>booking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-cont">
+        <form action="/booking" method="post">
+          <div class="ipblock">
+            <label for="username">Username:</label>
+            <input id="username" name="username" type="text" required />
+          </div>
+          <div class="ipblock">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="ipblock">
+            <label for="mob-no">Mobile No:</label>
+            <input type="tel" name="mob-no" id="mob-no" />
+          </div>
+          <div class="info">
+            <div class="info-div">
+              <label for="source">Source:</label>
+              <input type="text" name="source" id="source" />
+            </div>
+            <div class="info-div">
+              <label for="dest">Destination:</label>
+              <input type="text" name="dest" id="dest" />
+            </div>
+          </div>
+          <div class="dates">
+            <div class="info-div">
+            <label for="start-date">Start-date:</label>
+            <input type="date" name="s_date" id="s_date">
+            </div>
+            <div class="info-div">
+                <label for="end-date">End-date:</label>
+                <input type="date" name="e_date" id="e_date">
+            </div>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
